@@ -1,0 +1,48 @@
+<view class="wrapper">
+    <view class="hd_bar">
+        <text class="hd_shezhi">设置</text>
+        <view class="hd_wrap_icon" wx:for-items="{{array}}" wx:for-item="item">
+            <image class="hd_icon" mode="{{item.mode}}" src="{{item.src}}"></image>
+        </view>   
+    </view>     
+
+    <view class="content">
+        <view class="user_info">
+            <view class="head_logo" wx:for-item="{{hd_logo}}">
+                <view id="head_logo_img">
+                    <image class="head_logo_img" src="{{hd_logo.src}}" mode="{{hd_logo.mode}}"></image>
+                 </view>
+
+                 <view class="user_name">
+                    <view><text>石攻玉</text></view>
+                    <view><text>ID: 1314521</text></view>
+                </view>
+            </view>
+
+            
+            <view class="hd_EWM" wx:for-item="{{hd_EWM}}">
+                <image class="hd_EWM_img" src="{{hd_EWM.src}}" mode="{{hd_EWM.mode}}"></image>
+            </view>
+        </view>
+
+        <view class="list" wx:for-items="{{lists}}" wx:for-item="item">
+            <view class="list_item" wx:for-item="item">
+                <view class="list_item_left">
+                    <view class="list_item_img">
+                        <image src="{{item.src}}" mode="{{item.mode}}"></image>
+                    </view>
+                    <view class="list_item_text">
+                        <text>{{item.text}}</text>
+                    </view>
+                </view>
+
+                <view class="right_icon list_item_right">
+                    <image class="" src="{{iconSrc}}"></image>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+
+</view>

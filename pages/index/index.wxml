@@ -1,0 +1,27 @@
+<view class="wrapper">
+
+    <view class="home_logo_img" wx:for-item="{{img1}}">
+        <image class="nemu_btn" src="{{img1.src}}"></image>
+    </view>
+
+    <view class="home_title">
+        <text class="home_title_1">微</text>
+        <text class="home_title_2">H</text>
+        <text class="home_title_3">o</text>
+        <text class="home_title_4">m</text>
+        <text class="home_title_5">e</text>
+    </view>
+
+    <!-- form -->
+    <view class="home_form">
+        <view class="home_form_input">
+            <input type='text' placeholder="用户名" placeholder-class="pld_color" placeholder-style="color: #DBA161;" class="home-form-input_item" />
+            <input text='text' password="true" placeholder="登录密码" placeholder-class="pld_color" placeholder-style="color: #DBA161;" class="home-form-input_item" />
+        </view>
+
+        <view class="v_btn">
+            <button type="submit" class="home_submit_btn">登 录</button>
+        </view>
+    </view>
+
+</view>

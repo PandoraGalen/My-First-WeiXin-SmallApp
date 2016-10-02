@@ -1,0 +1,33 @@
+<view class="wrapper">
+     <view class="hd_bar">
+        <text class="hd_shezhi">购物街</text>
+        <view class="hd_wrap_icon" wx:for-items="{{array}}" wx:for-item="item">
+            <image class="hd_icon" mode="{{item.mode}}" src="{{item.src}}"></image>
+        </view>   
+    </view>   
+
+    <view class="content">
+        <view class="list_item" wx:for-items="{{lists}}" wx:for-item="item">
+            <view class="list_item_img">
+                <image mode="{{item.mode}}" src="{{item.src}}"></image>
+            </view>
+
+            <view class="list_item_info">
+                <view class="list_item_detail">
+                    <view>
+                          <text>价格：{{item.jiage}}</text>
+                    </view>
+                    <view>
+                        <text>{{item.details}}</text>
+                    </view>
+                </view>
+
+                <view class="list_item_btn">
+                    <button class="item_btn">下 单</button>
+                </view>
+            </view>
+        </view>
+
+    </view>
+
+</view>

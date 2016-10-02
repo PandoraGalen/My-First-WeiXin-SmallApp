@@ -1,0 +1,86 @@
+.wrapper {
+    background-color: #dfe1ea;
+    height: 100%;
+}
+
+.hd_bar {
+    background-color: #221A5A;
+    overflow: hidden;
+    padding: 10px 1px;
+}
+
+.hd_shezhi {
+    width: 70%;
+    float: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei'
+}
+
+.hd_wrap_icon {
+    width: 10%;
+    float: right;
+}
+
+.hd_icon {
+    width: 15px;
+    height: 15px;
+    max-width: 100%;
+}
+
+/* content */
+
+.content {
+    position: relative;
+}
+
+.list_item {
+    width: 44%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 7px;
+    margin-right: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 1px -1px 2px #CCCCCC, -1px 1px 2px #CCCCCC;
+    padding: 4px;
+    overflow: hidden;
+}
+
+.list_item_img {
+    width: 100%;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.list_item_img image {
+    max-width: 100%;
+}
+
+.list_item_info {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.list_item_detail {
+    width: 70%;
+    float: left;
+    padding: 3px 0px;
+    font-size: 9px;
+    font-family: 'Microsoft YaHei'
+}
+
+.list_item_btn {
+    width: 25%;
+    float: right;
+}
+
+.item_btn {
+    width: 100%;
+    padding: 2px;
+    font-size: 3px;
+    font-family: "Microsoft YaHei";
+    background-color: #EEEEEE;
+}
+
+

@@ -1,0 +1,165 @@
+.wrapper {
+    background-color: #dfe1ea;
+    height: 100%;
+}
+
+.hd_bar {
+    background-color: #221A5A;
+    overflow: hidden;
+    padding: 10px 1px;
+}
+
+.hd_shezhi {
+    width: 70%;
+    float: left;
+    color: #FFFFFF;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: 'Microsoft YaHei'
+}
+
+.hd_wrap_icon {
+    width: 10%;
+    float: right;
+}
+
+.hd_icon {
+    width: 15px;
+    height: 15px;
+    max-width: 100%;
+}
+
+/* --------------------- content -------------------------------*/
+
+
+/* head start here */
+
+.user_info {
+    background-color: #FFFFFF;
+    padding: 1px 0;
+    margin: 14px 0;
+    overflow: hidden;
+    box-shadow: 2px -2px 2px #CCC, -2px 2px 2px #CCC;
+}
+
+.head_logo {
+    width: 50%;
+    float: left;
+    margin-left: 10px;
+    padding: 10px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+#head_logo_img {
+    width: 70px;
+    float: left;
+}
+
+.head_logo_img {
+    width: 60px;
+    height: 60px;
+}
+
+/* head end here */
+
+.user_name {
+    width: 70px;
+    margin-left: 10px;
+    float: left;
+    margin-top: 20px;
+    font-size: 11px;
+    font-family: 'Microsoft YaHei'
+}
+
+.user_name text {
+    width: 100%;
+}
+
+.hd_EWM {
+    float: right;
+    width: 30px;
+    height: 30px;
+    max-width: 100%;
+    padding: 5px;
+    padding-right: 20px;
+}
+
+.hd_EWM_img {
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+/* lists */
+.list_item {
+    display: block;
+    padding: 5px 2px;
+    overflow: hidden;
+    margin: 5px 0px;
+    background-color: #FFFFFF;
+    box-shadow: 1px -1px 2px #CCC, -1px 1px 2px #CCC;
+}
+
+.list_item_left {
+    float: left;
+    width: 80%;
+    margin-left: 20px;
+}
+
+.list_item_right {
+    float: right;
+    width: 10%;
+}
+
+.list_item_img {
+    float: left;
+    width: 30px;
+    height: 30px;
+    max-width: 100%;
+    padding: 1px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+.list_item_img image {
+    width: 30px;
+    height: 30px;
+}
+
+.list_item_text {
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 11px;
+    font-family: 'Microsoft YaHei'
+}
+
+.right_icon {
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.right_icon image {
+    width: 10px;
+    height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
